@@ -6,7 +6,7 @@ export default function TabLayout() {
   return (
     <Tabs>
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: "Home",
           tabBarIcon: ({ color }) => (
@@ -15,7 +15,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="upload"
+        name="index"
         options={{
           title: "Upload",
           tabBarIcon: ({ color }) => (

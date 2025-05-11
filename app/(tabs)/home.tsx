@@ -1,10 +1,10 @@
 import { Screen } from "@/components/Screen";
 import { Text } from "@/components/Text";
 
-export default function HistoryScreen() {
+export default function HomeScreen() {
   return (
     <Screen>
-      <Text>History Screen</Text>
+      <Text>Home Screen</Text>
     </Screen>
   );
 }

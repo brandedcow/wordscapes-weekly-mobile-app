@@ -1,10 +1,10 @@
-import { View } from "react-native";
-import { Text } from "../components/Text";
+import { Screen } from "@/components/Screen";
+import { Text } from "@/components/Text";
 
-export default function HomeScreen() {
+export default function UploadScreen() {
   return (
-    <View>
-      <Text>Home Screen</Text>
-    </View>
+    <Screen>
+      <Text variant="heading">Upload Screen</Text>
+    </Screen>
   );
 }
